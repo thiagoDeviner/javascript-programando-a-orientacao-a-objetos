@@ -27,7 +27,6 @@ class ContaCorrente {
     }
 }
 
-
 const cliente1 = new Cliente();
 const cliente2 = new Cliente();
 
@@ -45,7 +44,6 @@ contaCorrenteRicardo.agencia = 1001;
 contaCorrenteRicardo.depositar(-100);
 contaCorrenteRicardo.depositar(100);
 contaCorrenteRicardo.depositar(100);
-
 
 const valorSacado = contaCorrenteRicardo.sacar(50);
 console.log(valorSacado);
